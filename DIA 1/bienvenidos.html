@@ -1,0 +1,63 @@
+<html>
+    <head>
+	
+	    <title>Bienvenidos</title>
+	</head>
+	<body>
+	    <form>
+	    <!-- Diseñar un formulario, que la caja de texto de resultados sea de solo lectura -->
+	    <label for="ResultadosTxt">Resultados:</label>
+	    <input id="ResultadosTxt" type="text" readonly="readonly" />
+	    <!-- El boton reenviar este deshabilitado -->
+		<button id="ReenviarBtn" disabled="disabled">
+		    <strong>Reenviar</strong> <!-- Strong: Indica enfasis o importante -->
+		</button> <!-- type="button" soporta menos características que button --> 
+		<input type="button" value="Cerrar" disabled />
+	    </form>                      <!-- disabled: deshabilita el control, por tanto
+                                                    impide que reaccione a click u otros -->
+	
+	<!-- En un formulario, se pide que los datos de producto y de impuestos esten agrupados -->
+	
+        <form>
+		    <fieldset> <!-- fieldset: Es un marco-->
+			    <legend>Datos producto</legend><!-- legend: es el título que acompaña al marco-->
+		        Producto: <input id="ProductoNombre" type="text" placeholder="Ingresar producto" />
+			    Precio: <input id="ProductoPrecio" type="text" placeholder="Ingresar precio" />
+			</fieldset>
+			<fieldset>
+			    <legend>Datos impuestos</legend>
+				Igv: <input type="text" />
+				Isc: <input type="text" />
+			</fieldset>
+		</form>
+		
+		<table>
+		    <tr>
+			    <th>Col 1</th><th>Col 2</th><th>Col 3</th>
+			<tr>
+		    <tr>
+			    <td>fil 1, col 1</td><td>fil 1, col 2</td><td>fil 1, col 3</td>
+			<tr>
+			<tr>
+			    <td>fil 2, col 1</td><td>fil 2, col 2</td><td>fil 2, col 3</td>
+			<tr>
+		</table>
+		
+		<img src="playa-ica.jpg" alt="Playa de Ica" />
+		<img src="playa-ica.png" alt="Playa de Ica" />
+		<img src="playa-ica.webp" alt="Playa de Ica" />
+		
+		<!-- Se le pide presentar en tablas los datos de los clientes
+             De algunos clientes se conoce el nombre y apellidos
+			 De otros no se esta seguro, porque se registraron juntos		 			 
+		-->
+		<table>
+		    <tr>
+			    <td>Juan</td><td>Perez</td><td>Rodriguez</td>
+			</tr>
+			<tr>
+			    <td colspan="3">Juana Perez Rodriguez</td>
+			</tr>
+		</table>
+	</body>
+</html>

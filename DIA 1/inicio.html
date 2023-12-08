@@ -1,0 +1,70 @@
+<html>
+    <head>
+	    <title>Inicio Web</title>
+	</head>
+	<body>
+	    Bienvenidos
+		
+		<h1>Universidad</h1>
+		<h2>Universidad</h2>
+		<h3>Centro</h3>
+		<h3>Sílabo</h3>
+		<h4>Datos    Generales</h4><!-- Solo se visualiza 1 espacio,
+                                       	si hubiese mas, los ignora-->
+										
+        <table>
+            <tr><td>Modulo</td><td>:</td><td>FRONT END DEVELOPER</td></tr>
+			<tr><td>Modalidad</td><td>:</td><td>Virtual</td></tr>
+        </table>
+
+		<!-- Listar 3 paises de sudamerica -->
+		<ul>
+		    <li>Argentina</li>
+			<li>Bolivia</li>
+			<li>Colombia</li>
+		</ul>
+		
+		<!-- Listar 3 paises por población, ordenados de mayor a menor -->
+		<ol>
+		    <li>India</li>
+			<li>China</li>
+			<li>Estados   Unidos</li>
+		</ol>
+		
+		<!-- Implementar un formulario de contacto -->
+		<form>
+		    <label for="Nombre">Ingrese nombre</label>
+		    <input id="Nombre" type="text" autocomplete="off" /><!-- Previene mostrar texto ingresado previamente -->
+			
+			<label for="Email">Ingrese email</label>
+			<input id="Email" type="email" />
+			
+			<label for="Consulta">Ingrese su consulta</label>
+			<textarea id="Consulta"></textarea>
+			
+			<input id="AceptarTerminos" type="checkbox" />
+			<label for="AceptarTerminos">Aceptar términos</label>
+			
+			<button id="Enviar">Enviar consulta</button> <button id="Cancelar">Cancelar</button>
+		
+			<input id="Guid" type="hidden" value="123" /> <!-- Etiqueta oculta, para almacenar información -->
+		</form>
+		
+		<!-- Implementar una opción que permita al usuario seleccionar suscripción mensual o anual -->
+		<form>
+		     <input id="SuscripcionMensual" name="Suscripcion" type="radio" />
+			 <label for="SuscripcionMensual">Mensual</label> 
+			 
+			 <input id="SuscripcionAnual" name="Suscripcion" type="radio" />
+			 <label for="SuscripcionAnual">Anual</label>
+			 
+			 <!-- Permitir al usuario seleccionar la entidad bancaria de una lista desplegable -->
+			 <select id="EntidadBancaria">
+			     <option value="Bcp">Banco de Crédito</option>
+				 <option value="Bbva">Banco Bbva</option>
+			     <option value="" selected="selected">Seleccionar banco</option>
+				 <option value="Interbank">Banco Interbank</option>
+			 </select>
+		</form>		
+	</body>
+</html>
