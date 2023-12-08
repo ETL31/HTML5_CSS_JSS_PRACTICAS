@@ -1,0 +1,14 @@
+.tabla-paises {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+}
+
+
+.tabla-paises thead tr  th{
+    border: 3px dashed #666666;
+}
+
+.tabla-paises tbody tr td {
+    border: 1px solid #005500;
+}

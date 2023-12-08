@@ -1,0 +1,47 @@
+h1 {/* Si se pone el nombre de la etiqueta, se referencia a todos los elementos de esa etiqueta */
+    color: green;
+}
+
+#Resumen { /* Con # se referencia a un elemento por su id */
+	font-size:13px;
+}
+
+.Subtitulo { /* Con . se referencia a un conjunto de elementos, con la misma clase */
+	background-color: gray;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.alineado-derecha {
+	text-align: right;
+	line-height:1.5;
+}
+
+.margenes {
+	margin-right: 35px;
+	margin-left: 0px;
+	margin-top:40px;
+}
+
+.parrafo-3 {
+	font-weight: bold;/*Si la fuente no soporta negrita, no se mostrará */
+	font-style: italic; /* Si la fuente no soporta italica, no se mostrará, no da error */
+	font-family: Arial;
+	color: #888888;/*Tipo hexagesimal, va de negro #000000 a #FFFFFF blanco
+	                 RRGGBB: RR:rojo, GG:green, BB:blue */
+}
+
+.Subtitulo {
+	          (rojo[0-255], verde[0-255], azul[0-255])
+	color: rgb(0,100,100); /* Las clases se pueden definir mas de una vez
+                              Las propiedades se acomplan.
+                              Si se repite la propiedad, se sobreescribe por la ultima*/
+}
+
+.parrafo--4 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: peru;
+}

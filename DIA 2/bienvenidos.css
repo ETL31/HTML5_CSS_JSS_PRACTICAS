@@ -1,0 +1,28 @@
+.pequeña {
+	width: 200px;
+	height: 200px;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: blue;
+}
+
+table.tabla-general {
+	width:75%;
+}
+
+table, td, th {
+	border-width:3px;
+}
+
+#ResultadosTxt{
+	font-size: 22px;
+	text-align: right;
+}
+
+.ocultar {
+	display: none;/*Oculta */
+}
+
+.invisible {
+	visibility: hidden; /*No se ve, pero ocupa el mismo espacio*/
+}

@@ -1,0 +1,98 @@
+ul.listado {
+	list-style-type: circle;
+}
+
+h3.subrayado {
+	text-decoration: underline;
+}
+
+.alienado-derecha {
+    text-align: right;	
+	width: 75%
+}
+
+.textbox {
+	width:150px;
+	font-size: 13.5px;/* Soporta decimales */
+}
+
+.numeros-romanos {
+	list-style-type: upper-roman;
+}
+
+.Verdana {
+    font-family: Verdana;
+}
+
+.Times {
+    font-family: "Times New Roman", Times	
+}
+
+.LucidaConsole {
+	font-family: "Lucida Console" /*Todas las letras tienen el mismo ancho*/
+}
+
+.Barlow {
+	font-family: Barlow;
+}
+
+.Barlow-Condensed {
+	font-family: "Barlow Condensed";
+}
+
+.roboto {
+	font-family: Roboto;
+	font-size:22px;
+	color: red;
+}
+
+.cantarell {
+	font-family: Cantarell;
+	color: yellow;
+}
+
+.romanos_minusculas{
+	list-style-type: lower-roman;
+}
+
+.mas-grande{
+	font-size: 1.5em;
+}
+
+.rojo {
+	color: red;
+}
+
+.rojo { /* Cascada: Cuando se definen varias veces la misma propiedad, predomina la última */
+	color: brown;/*Es importante en casos se reescribir la propiedad, pero solo en una página o resolucion o dispositivo */
+}
+
+.celeste {
+	color: yellow !important; /* !important: Indica que tendrá mayor precedencia que otras definiciones */
+}
+
+.celeste {
+	color: skyblue;
+}
+
+.icon-button-svg {
+	width: 16px;
+	height: 16px;
+	display: block; /* El elemento deberá ser mostrado */
+}
+
+.icon-sunat {
+	background-size: 16px 16px !important; /* Si no se pone important, predominará el tamaño original
+                                             de la imagen*/											 
+	background: url('../images/sunat.svg') no-repeat;
+	                /*../: Significa subir un nivel desde la posición actual*/    
+}
+
+.verde-agua {
+	height: 100px;
+	width: 85%;
+	background-image: url('../images/verde-claro.png');
+	background-repeat: repeat;
+}
+
+
