@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> <!-- Las etiquetas meta no necesitan cierre, con o sin cierre son válidas en html5 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Se llama código enbebido
+        let frutas =["Fresa", "Manzana"];
+
+        console.log(frutas)
+
+        frutas.push("Platano");// Agregar un elemento al final
+        console.log(frutas)
+
+        console.log(frutas[1]); // Leer segundo elemento
+
+        // Cuantos elementos hay en frutas?
+        console.error(frutas.length); // console.error: Muestre el mensaje con un fondo e ícono de error.
+
+        let unafruta = frutas.pop();//extrae el último elemento
+        console.log("pop:",unafruta);
+        console.warn(frutas); // console.warn:Pone un pícono de warning y color amarillo.
+    </script>
+</body>
+</html>

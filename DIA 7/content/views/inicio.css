@@ -1,0 +1,52 @@
+.tabla-paises {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+}
+
+
+    .tabla-paises thead tr th {
+        border: 3px dashed #666666;
+    }
+
+    .tabla-paises tbody tr td {
+        border: 1px solid #005500;
+    }
+
+.rojo {
+    color: red;
+}
+
+.rojo {
+	color: pink;
+}
+
+.grande {
+    font-size: 24px;
+}
+
+.icon-button-svg {
+    width: 16px; /* tamaño del cuadro */
+    height: 16px;
+    display: block; /* Especifica que el elemento deberá ser mostrado */
+}
+
+.icon-sunat {
+    background-size: 16px 16px !important; /* Si no se le pone important, predominará el tamaño del archivo fisico */
+    background: url('../images/sunat.svg') no-repeat;
+}
+
+.verde-muy-claro {
+    background-image: url("../images/verde-claro.png");
+    background-repeat: repeat;
+    height: 400px;
+    width: 100px; /* 100px;100%; */
+}
+
+.marca-de-agua {
+    background-image: url("../images/mar-peruano.jpg");
+    background-size: 1000px 668px; /* width height */
+    background-repeat: no-repeat;
+    height: 668px;
+    width: 1000px;
+}

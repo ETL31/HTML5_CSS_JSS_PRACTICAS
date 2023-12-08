@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let entradas = prompt("Ingresar entradas", 1);
+
+        console.log("prompt:", entradas);
+
+        // Confirmar la acción de compra:
+        let respuesta = confirm("Confirma realizar la compra?");
+        if(respuesta === true){
+            console.log("Realizando transacción");
+        } else{
+            console.log("Se canceló la operación");
+        }
+    </script>
+   <!-- <script scr="content/views/mensajes.js"></script>-->
+</body>
+</html>

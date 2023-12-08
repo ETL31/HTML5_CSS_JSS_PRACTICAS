@@ -1,0 +1,77 @@
+<!DOCTYPE html><!-- Indica que es html5 -->
+<html>
+<head>
+    <meta charset="UTF-8"><!-- Indica que usa caracteres UTF-8, soporta tildes,ñ dieresis y otros idiomas europeos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Soporte para dispositivos móviles -->
+    <link href="content/views/index.css" rel="stylesheet" />
+    <link href="content/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /><!-- Imagen de 16x16 pixeles, logo de la empresa -->
+    <title>Document</title>    
+</head>
+<body>
+    <form id="ContactoForm">
+        <button id="EnviarBtn" type="button">Enviar</button>
+        <label for="NombreCompleto">Nombre completo</label>
+        <input id="NombreCompleto" type="text" autocomplete="off" />
+
+        <div id="MensajeBienvenida"></div>
+    </form>
+    <br />
+    <br />
+
+    <form id="CalculadoraForm">
+        Resultado: <input id="ResultadoTxt" type="text" readonly="readonly" />
+        <input id="Numero1" type="number" />
+        <input id="Numero2" type="number" />
+        <button id="SumarBtn" type="button">Sumar</button>
+        <!--type="button": Si no lo pone, asumira que es Submit, es decir envio
+        de todo el formulario y borrado del contenido-->
+        <button id="DividirBtn" type="button">Dividir</button>
+
+    </form>
+
+    <form id="EstacionForm">
+        <input id="EstacionBtn" type="button" value="Leer estación" />
+        <input id="EstacionTxt" type="text" />
+    </form> 
+
+    <a class="inicio" href="#">Ir a inicio por programacion</a>
+    <a class="inicio" href="https://www.google.com">Ir a inicio por link</a>
+    <!-- Implementar una funcion que devuelva la estacion de acuerdo al numero
+    1,2,3,4: verano.... -->
+
+    <br />
+    <br />
+    <!-- Implementar un registro de usuario -->
+    <form id="RegistroUsuarioForm">
+        <input id="AceptarTerminosChk" type="checkbox" /> Aceptar Términos
+        <button id="RegistroUsuarioBtn" type="button" disabled="disabled">Registrar</button>
+    </form>
+
+    <br />
+    <br />
+    <!-- Se le encarga una funcionalidad, que lea el texto que ingresa el usuario 
+         Admita hasta 20 caracteres, el resto lo recorte y muestre conforme escriba -->
+    <form id="TextoLimiteForm">
+        Producto <input id="ProductoTxt" type="text" />
+
+        Nombre corto:<p id="NombreCorto"></p>
+    </form>
+
+    <!-- Implemente un formulario que verifique si el producto requiere licencia
+         para su compra, mediante un checkbox -->
+     <br />
+     <br />
+     <form id="RequiereLicenciaForm">
+        <input id="RequiereLicenciaChk" type="checkbox" /> Tiene licencia?
+        <button id="RequiereLicenciaBtn" type="button" disabled="disabled">Registrar</button>
+    </form>
+
+    <br />
+    <br />
+    <button id="MaximoBtn" type="button">Máximo</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="content/views/index.js"></script>
+    <script src="content/views/operaciones.js"></script>
+</body>
+</html>
