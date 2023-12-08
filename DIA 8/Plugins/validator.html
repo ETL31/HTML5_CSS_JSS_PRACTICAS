@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Begin::Fonts -->
+        <link href="../content/fonts/fontawesome/6.4.2/css/all.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" />
+        <!-- End::Fonts -->
+        <!-- Begin::Core Plugins -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- End::Core Plugins -->
+        <!-- Begin::Plugins -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" rel="stylesheet" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/redmond/theme.min.css" rel="stylesheet" integrity="sha512-0bcqtDVki4GAD6rxlpngwNROUwKg5Nf+ARCueSCa1gk1DB5V9QxsChj2G+dGNOQzN8tpbJidotfAhPZnQjsJ/w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- End::Plugins -->
+        <!-- Begin::Custom Plugins -->
+        <!-- End::Custom Plugins -->
+        <!-- Begin::Themes -->
+        <!-- End::Themes -->
+        <!-- Begin::Project -->
+        <link href="content/views/neptuno.css" rel="stylesheet" />
+        <!-- End::Project -->
+        <!-- Begin::Page -->
+        <link href="content/views/validator.css" rel="stylesheet" />
+        <!-- End::Page -->
+    <title>Producto - Nuevo</title>
+</head>
+<body>
+<div id="ExitoGuardarAlert" class="alert alert-success ocultar">
+    <Strong>Producto ingresado</Strong>
+    <p>El producto se guardo en el catálogo</p>
+</div>
+
+    <header class="container mb-3">
+        <div class="row">
+            <div class="col-3">
+                <h3>Producto</h3>
+                <h5>Nuevo</h5>
+            </div>
+            <div class="col-6 offset-3">
+                <button id="GuardarBtn" class="btn btn-success" type="button">
+                    <i class="bi bi-floppy2"></i> Guardar
+                </button>
+                <button class="btn btn-secondary" type="button">
+                    <i class="bi bi-arrow-return-left"></i> Cancelar
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <form id="ProductoNuevo">
+        <div class="row"></div>
+            <div class="col-12">
+                <div class="validation-message">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="NombreTxt" class="form-label"><strong>Nombre</strong></label>
+            </div>
+            <div class="col-9">                
+                <input id="NombreTxt" name="NombreTxt" class="form-control" type="text" placeholder="Nombre" maxlength="8" />
+            </div>            
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="CategoriaTxt" class="form-label ps-4"><em>Categoría</em></label>
+            </div>
+            <div class="col-9">
+                <div class="input-group">
+                    <input id="CategoriaTxt" class="form-control" type="text" placeholder="Categoría" readonly="readonly" />
+                    <input id="CategoriaId" type="hidden" />
+                    <button id="CategoriaBtn" class="btn btn-secondary" type="button"
+                    data-url-search="../categoria/buscar.html">Buscar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="PrecioTxt" class="form-label">Moneda</label>
+            </div>
+            <div class="col-9">
+                <label>Soles</label> 
+                <input id="SolesRadio" name="MonedasRadio" type="radio" class="form-check-input" />
+        
+                <br />
+                <label>Dólares</label> 
+                <input id="DolaresRadio" name="MonedasRadio" type="radio" class="form-check-input" />
+            </div>
+        </div>
+
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="PrecioTxt" class="form-label">Precio</label>
+            </div>
+            <div class="col-9">
+                <div class="input-group">
+                    <div class="input-group-text">
+                        <span>S/</span>
+                    </div>
+                    <input id="PrecioTxt" class="form-control text-end" type="text" placeholder="Precio" autocomplete="off"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="IvaSelect" class="form-label">Igv</label>
+            </div>
+            <div class="col-9">
+                <select id="IvaSelect" name="IvaSelect" class="form-control">
+                    <option value="" data-keyalt="">Seleccionar</option>
+                    <option value="ivaGeneral" data-keyalt="18">Iva General</option>
+                    <option value="ivaExonerado" data-keyalt="0">Iva Exonerado</option>
+                    <option value="ivaGratuito" data-keyalt="0">Iva Gratuito</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="DescripcionTxt" class="form-label">Descripción</label>
+            </div>
+            <div class="col-9">
+                <textarea id="DescripcionTxt" class="form-control" rows="3" placeholder="Descripción" maxlength="4" ></textarea>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="TiendasSel" class="form-label">Tiendas</label>
+            </div>
+            <div class="col-9">
+                <select id="TiendasSel" class="form-select" multiple="multiple">
+                    <option value="AvPardo">Av. Pardo</option>
+                    <option value="AvBrasil">Av. Brasil</option>
+                    <option value="LimaNorte">Lima Norte</option>
+                    <option value="LimaEste">Lima Este</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <label for="SoloDeliveryChk" class="form-check-label">Solo delivery</label>
+            </div>
+            <div class="col-3">
+                <div class="form-check form-switch">
+                    <input id="SoloDeliveryChk" class="form-check-input" type="checkbox" />
+                </div>
+            </div>
+        </div>
+    </form>
+    </main>
+
+    <div class="display-none">
+        <div id="dialog"></div>>
+    </div>
+    <!-- End::Core Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Begin::Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js" integrity="sha512-6S5LYNn3ZJCIm0f9L6BCerqFlQ4f5MwNKq+EthDXabtaJvg3TuFLhpno9pcm+5Ynm6jdA9xfpQoMz2fcjVMk9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_es_PE.min.js" integrity="sha512-VEXnX78M4rHuAiHP4WnF7i774Z/MYfGM9Syikk99Y23tpKMiqu9SIelW4RQlj+9C0LQ3X8KLyGb4kOsanZcoiA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- End::Plugins -->
+    <!-- Begin::Custom Plugins -->
+    <script src="content/custom/cinfo.js"></script>
+    <!-- End::Custom Plugins -->
+    <!-- Begin::Themes -->
+    <!-- End::Themes -->
+    <!-- Begin::Project -->
+    <!-- End::Project -->
+    <!-- Begin::Page -->
+    <script src="content/views/validator.js"></script>
+    <!-- End::Page -->
+</body>
+</html>

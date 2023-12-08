@@ -1,0 +1,15 @@
+.display-none {
+    display: none;
+}
+
+.ocultar {
+    display:none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.error{
+    color:red;
+}

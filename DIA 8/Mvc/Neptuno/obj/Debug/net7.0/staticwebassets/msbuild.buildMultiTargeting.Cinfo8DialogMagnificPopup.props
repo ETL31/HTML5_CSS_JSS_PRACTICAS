@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cinfo8DialogMagnificPopup.props" />
+</Project>

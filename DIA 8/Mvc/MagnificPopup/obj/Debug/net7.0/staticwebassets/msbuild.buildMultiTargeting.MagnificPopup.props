@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MagnificPopup.props" />
+</Project>

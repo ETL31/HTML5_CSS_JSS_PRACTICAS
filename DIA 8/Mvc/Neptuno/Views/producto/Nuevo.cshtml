@@ -1,0 +1,113 @@
+﻿@section Styles {
+    <link href="~/views/producto/nuevo.css" rel="stylesheet" />
+}
+<div id="ExitoGuardarAlert" class="alert alert-success ocultar">
+    <strong>Producto ingresado</strong>
+    <p>El producto se guardo en el catálogo</p>
+</div>
+
+<header class="container mb-3">
+    <div class="row">
+        <div class="col-3">
+            <h3>Producto</h3>
+            <h5>Nuevo</h5>
+        </div>
+        <div class="col-6 offset-3">
+            <button id="GuardarBtn" class="btn btn-success"
+                    type="submit">
+                <i class="bi bi-floppy2"></i> Guardar
+            </button>
+            <button class="btn btn-secondary" type="button">
+                <i class="bi bi-arrow-return-left"></i> Cancelar
+            </button>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="NombreTxt" class="form-label"><strong>Nombre</strong></label>
+        </div>
+        <div class="col-9">
+            <input id="NombreTxt" class="form-control" type="text"
+                   placeholder="Nombre" maxlength="8" />
+        </div>
+    </div>
+
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="CategoriaTxt" class="form-label ps-4"><em>Categoría</em></label>
+        </div>
+        <div class="col-9">
+            <div class="input-group">
+                <input id="CategoriaTxt" class="form-control"
+                       type="text" placeholder="Categoría"
+                       readonly="readonly" />
+                <input id="CategoriaId" type="hidden" />
+                <button id="CategoriaBtn" class="btn btn-secondary" type="button" data-url-search="/categoria/buscar">
+                    Buscar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="PrecioTxt" class="form-label">Precio</label>
+        </div>
+        <div class="col-9">
+            <div class="input-group">
+                <div class="input-group-text">
+                    <span>S/</span>
+                </div>
+                <input id="PrecioTxt" class="form-control text-end" type="text" placeholder="Precio" autocomplete="off" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="DescripcionTxt" class="form-label">Descripción</label>
+        </div>
+        <div class="col-9">
+            <textarea id="DescripcionTxt" class="form-control" rows="3"
+                      placeholder="Descripción" maxlength="4"></textarea>
+        </div>
+    </div>
+
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="TiendasSel" class="form-label">Tiendas</label>
+        </div>
+        <div class="col-9">
+            <select id="TiendasSel" class="form-select"
+                    multiple="multiple">
+                <option value="AvPardo">Av. Pardo</option>
+                <option value="AvBrasil">Av. Brasil</option>
+                <option value="LimaNorte">Lima Norte</option>
+                <option value="LimaEste">Lima Este</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row mt-2 mb-2">
+        <div class="col-3">
+            <label for="SoloDeliveryChk" class="form-check-label">
+                Solo
+                delivery
+            </label>
+        </div>
+        <div class="col-3">
+            <div class="form-check form-switch">
+                <input id="SoloDeliveryChk" class="form-check-input"
+                       type="checkbox" />
+            </div>
+        </div>
+    </div>
+</main>
+
+@section scripts {
+    <script src="~/views/producto/nuevo.js"></script>
+        }
+<!-- End::Page -->

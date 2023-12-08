@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neptuno", "Neptuno\Neptuno.csproj", "{E306847E-702A-4104-8A4C-09FE4BD4B751}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnificPopup", "MagnificPopup\MagnificPopup.csproj", "{1A1D702A-491B-43C2-A691-861214864C6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E306847E-702A-4104-8A4C-09FE4BD4B751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E306847E-702A-4104-8A4C-09FE4BD4B751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E306847E-702A-4104-8A4C-09FE4BD4B751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E306847E-702A-4104-8A4C-09FE4BD4B751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1D702A-491B-43C2-A691-861214864C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1D702A-491B-43C2-A691-861214864C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1D702A-491B-43C2-A691-861214864C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1D702A-491B-43C2-A691-861214864C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE6934FA-6D80-4D18-A2EF-236AF9E836F6}
+	EndGlobalSection
+EndGlobal

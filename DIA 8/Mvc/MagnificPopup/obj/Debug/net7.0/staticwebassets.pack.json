@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MagnificPopup.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MagnificPopup.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\custom\\cinfo.css",
+      "PackagePath": "staticwebassets\\custom\\cinfo.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\custom\\cinfo.js",
+      "PackagePath": "staticwebassets\\custom\\cinfo.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\custom\\desktop.ini",
+      "PackagePath": "staticwebassets\\custom\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\desktop.ini",
+      "PackagePath": "staticwebassets\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\downloads\\desktop.ini",
+      "PackagePath": "staticwebassets\\downloads\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\fonts\\desktop.ini",
+      "PackagePath": "staticwebassets\\fonts\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\libs\\desktop.ini",
+      "PackagePath": "staticwebassets\\libs\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\themes\\desktop.ini",
+      "PackagePath": "staticwebassets\\themes\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\videos\\desktop.ini",
+      "PackagePath": "staticwebassets\\videos\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\views\\desktop.ini",
+      "PackagePath": "staticwebassets\\views\\desktop.ini"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\MagnificPopup\\wwwroot\\views\\videos\\index.js",
+      "PackagePath": "staticwebassets\\views\\videos\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MagnificPopup.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MagnificPopup.props",
+      "PackagePath": "build\\MagnificPopup.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MagnificPopup.props",
+      "PackagePath": "buildMultiTargeting\\MagnificPopup.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MagnificPopup.props",
+      "PackagePath": "buildTransitive\\MagnificPopup.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

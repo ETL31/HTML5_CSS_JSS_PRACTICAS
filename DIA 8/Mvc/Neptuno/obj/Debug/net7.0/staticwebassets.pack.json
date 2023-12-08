@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Neptuno.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Neptuno.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\custom\\cinfo.css",
+      "PackagePath": "staticwebassets\\custom\\cinfo.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\custom\\cinfo.js",
+      "PackagePath": "staticwebassets\\custom\\cinfo.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\categoria\\buscar.css",
+      "PackagePath": "staticwebassets\\views\\categoria\\buscar.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\categoria\\buscar.js",
+      "PackagePath": "staticwebassets\\views\\categoria\\buscar.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\views\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\views\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\views\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\views\\magnific-popup.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\neptuno.css",
+      "PackagePath": "staticwebassets\\views\\neptuno.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\neptuno.js",
+      "PackagePath": "staticwebassets\\views\\neptuno.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\producto\\nuevo.css",
+      "PackagePath": "staticwebassets\\views\\producto\\nuevo.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\WebApplication1\\Neptuno\\wwwroot\\views\\producto\\nuevo.js",
+      "PackagePath": "staticwebassets\\views\\producto\\nuevo.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Neptuno.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Neptuno.props",
+      "PackagePath": "build\\Neptuno.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Neptuno.props",
+      "PackagePath": "buildMultiTargeting\\Neptuno.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Neptuno.props",
+      "PackagePath": "buildTransitive\\Neptuno.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
